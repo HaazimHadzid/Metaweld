@@ -59,6 +59,19 @@ html {
 }
 
 /* ---- Numbered card grid (mimics Metaweld redesign's why-grid / card-grid) ---- */
+
+.nav-cta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-phone {
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  color: var(--navy);
+  display: none;
+}
+
 .mw-card-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
