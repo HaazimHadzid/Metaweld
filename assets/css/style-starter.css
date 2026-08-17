@@ -63,7 +63,7 @@ html {
 .nav-cta {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
 }
 .nav-phone {
   font-family: var(--font-mono);
